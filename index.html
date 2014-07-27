@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="triviaApp">
+  <head lang="en">
+    <meta charset="UTF-8">
+    <title>Trivia Time</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="css/app.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/angular.min.js"></script>
+    <script type="text/javascript" src="js/angular-route.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://cdn.firebase.com/js/client/1.0.18/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.7.1/angularfire.min.js"></script>
+	</head>
+	<body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1> Trivia Time! </h1>
+                <p class="application-description"> Challenge your knowledge! </p>
+                <div ng-view>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>

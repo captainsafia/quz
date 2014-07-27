@@ -1,0 +1,23 @@
+.container li {
+    margin: 20px 0;
+}
+
+.ng-valid {
+    border-color: limegreen;
+}
+
+.ng-invalid {
+    border-color: red;
+}
+
+.result {
+    margin-right: 15px;
+}
+
+.correct.active {
+    color: green;
+}
+
+.wrong.active {
+    color: red;
+}
